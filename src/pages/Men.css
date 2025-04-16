@@ -1,0 +1,79 @@
+.men-container {
+    padding: 40px 20px;
+    background-color: #fefefe;
+  }
+  
+  .men-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .men-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .men-card {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .men-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .men-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .ml-options button {
+    margin: 5px;
+    padding: 6px 12px;
+    border: 1px solid #333;
+    background-color: #f4f4f4;
+    color: #111;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .ml-options button:hover {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .price {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 10px;
+  }
+  
+  .stars {
+    color: gold;
+    margin-top: 8px;
+  }
+  .men-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .men-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
