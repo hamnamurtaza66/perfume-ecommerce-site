@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
-import "./women.css";
+import "./Women.css";
 import products from "../data/productDetail";
 
 const Women = () => {
